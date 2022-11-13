@@ -79,7 +79,7 @@ def ask():
     global should_resume
     print(logo)
     query = input("\n\nDo you want to hit or stand?: ").lower()
-   def checkAce():
+    def checkAce():
         if user_score > 17:
             cards[0] = 1
             print("DBG ACE ALTERED")
